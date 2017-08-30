@@ -4,7 +4,6 @@
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")
 addSbtPlugin("com.blackducksoftware.integration" % "hub-sbt-plugin" % "1.0.0")
 
-hubIgnoreFailure := true
 hubCodeLocationName := OverrideCodeLocationName
 hubProjectName := OverrideMavenProjectName
 hubVersionName := OverrideMavenProjectVersion
