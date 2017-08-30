@@ -15,3 +15,7 @@ libraryDependencies ++= Seq(
 
 // resolvers += "Typesafe Artifactory" at "http://repo.typesafe.com/typesafe"
 
+hubUrl := "http://imp-hub05.dc1.lan:8000"
+hubUsername := "sysadmin"
+hubPassword := "blackduck"
+
